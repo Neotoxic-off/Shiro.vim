@@ -1,6 +1,5 @@
 " Vim color file
 " Shiro
-" Created by Neo with ThemeCreator (https://github.com/mswift42/themecreator)
 
 hi clear
 
@@ -14,21 +13,21 @@ let g:colors_name = "Shiro"
 
 " Define reusable colorvariables.
 let s:bg="#23262E"
-let s:fg="#e6d7d7"
-let s:fg2="#d4c6c6"
-let s:fg3="#c1b5b5"
-let s:fg4="#afa3a3"
+let s:fg="#23262E"
+let s:fg2="#20232a"
+let s:fg3="#1d2027"
+let s:fg4="#1b1d23"
 let s:bg2="#35373f"
 let s:bg3="#46494f"
 let s:bg4="#585a60"
-let s:keyword="#ed67ff"
-let s:builtin="#ed67ff"
-let s:const= "#ff4ea3"
+let s:keyword="#e769f7"
+let s:builtin="#e769f7"
+let s:const= "#f751a1"
 let s:comment="#808080"
-let s:func="#73efff"
-let s:str="#adff7d"
-let s:type="#ed67ff"
-let s:var="#ff4ea3"
+let s:func="#74e9f7"
+let s:str="#abf77d"
+let s:type="#e769f7"
+let s:var="#f751a1"
 let s:warning="#ff5664"
 let s:warning2="#ff5664"
 
@@ -147,5 +146,4 @@ exe 'hi htmlSpecialTagName guifg='s:keyword
 
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:builtin
-
 
